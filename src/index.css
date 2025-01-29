@@ -1,0 +1,116 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply bg-cream dark:bg-charcoal transition-colors duration-300;
+  }
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+/* Only disable default cursor on non-touch devices */
+@media (pointer: fine) {
+  html {
+    cursor: none;
+  }
+
+  a, button, [role="button"],
+  input[type="submit"],
+  input[type="button"],
+  input[type="reset"] {
+    cursor: none;
+  }
+}
+
+/* Material Design transitions */
+.material-transition {
+  @apply transition-all duration-300 ease-in-out;
+}
+
+/* Material Design elevation states */
+.elevation-1 {
+  @apply shadow-elevation-1 hover:shadow-elevation-2 material-transition;
+}
+
+.elevation-2 {
+  @apply shadow-elevation-2 hover:shadow-elevation-3 material-transition;
+}
+
+.elevation-3 {
+  @apply shadow-elevation-3 hover:shadow-elevation-4 material-transition;
+}
+
+/* Hide cursor on touch devices */
+@media (pointer: coarse) {
+  .custom-cursor {
+    display: none;
+  }
+}
+
+/* Smooth scrolling for non-touch devices */
+@media (prefers-reduced-motion: no-preference) {
+  html {
+    scroll-behavior: smooth;
+  }
+}
+
+/* Parallax container */
+.parallax-container {
+  perspective: 1000px;
+  transform-style: preserve-3d;
+  will-change: transform;
+}
+
+/* Ensure content sections have proper z-index and positioning */
+section {
+  position: relative;
+  z-index: 1;
+  background-color: transparent;
+  will-change: transform;
+  margin-bottom: 4rem;
+}
+
+/* Material Design ripple effect */
+.ripple {
+  position: relative;
+  overflow: hidden;
+}
+
+.ripple::after {
+  content: '';
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: rgba(255, 193, 131, 0.2);
+  opacity: 0;
+  transform: scale(0);
+  transition: transform 0.5s, opacity 0.3s;
+}
+
+.ripple:active::after {
+  transform: scale(2);
+  opacity: 1;
+  transition: 0s;
+}
+
+/* Material Design state layers */
+.state-layer {
+  @apply relative overflow-hidden;
+}
+
+.state-layer::before {
+  content: '';
+  @apply absolute inset-0 bg-current opacity-0 transition-opacity duration-200;
+}
+
+.state-layer:hover::before {
+  @apply opacity-5;
+}
+
+.state-layer:active::before {
+  @apply opacity-10;
+}
