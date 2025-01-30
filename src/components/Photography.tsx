@@ -7,55 +7,55 @@ import type { PhotoItem } from '../types';
 const photos: PhotoItem[] = [
   {
     id: 1,
-    url: "public\\photos\\abstract.jpg",
+    url: "photos\\abstract.jpg",
     title: "Lazy Afternoon",
     category: "Abstract"
   },
   {
     id: 2,
-    url: "public\\photos\\beach.jpg",
+    url: "photos\\beach.jpg",
     title: "Beach Day",
     category: "Landscape"
   },
   {
     id: 3,
-    url: "public\\photos\\water.jpg",
+    url: "photos\\water.jpg",
     title: "Water waves",
     category: "Nature"
   },
   {
     id: 4,
-    url: "public\\photos\\deer.jpg",
+    url: "photos\\deer.jpg",
     title: "Deer in the Woods",
     category: "Nature"
   },
   {
     id: 5,
-    url: "public\\photos\\road.jpg",
+    url: "photos\\road.jpg",
     title: "Road Trip",
     category: "Street"
   },
   {
     id: 6,
-    url: "public\\photos\\spider.jpg",
+    url: "photos\\spider.jpg",
     title: "Spider closeup",
     category: "Nature"
   },
   {
     id: 7,
-    url: "public\\photos\\star_1.jpg",
+    url: "photos\\star_1.jpg",
     title: "Starry Night",
     category: "Astro"
   },
   {
     id: 8,
-    url: "public\\photos\\motion.jpg",
+    url: "photos\\motion.jpg",
     title: "Steel Wool Motion",
     category: "Abstract"
   },
   {
     id: 9,
-    url: "public\\photos\\star_2.jpg",
+    url: "photos\\star_2.jpg",
     title: "Orion Nebula",
     category: "Astro"
   },
