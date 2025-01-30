@@ -95,7 +95,7 @@ export const Hero: React.FC = () => {
         >
           <SequentialTypewriter 
             texts={[
-              "Data Scientist, Software Developer, Photographer"
+              "Data Scientist and Photographer"
             ]} 
             delay={2000}
           />

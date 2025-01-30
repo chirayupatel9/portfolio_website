@@ -11,96 +11,59 @@ const projects: Project[] = [
       "Developed a comprehensive Python application integrating Open Library and Google Books APIs to clean, preprocess, and analyze book data, culminating in effective recommendation systems and insightful visualizations.",
     technologies: ["Python", "APIs", "Data Visualization", "Data Cleaning"],
     image:
-      "https://images.unsplash.com/photo-1587844742900-54ab32538934?auto=format&fit=crop&q=80&w=1000",
-    github: "https://github.com/your-username/book-data-analysis",
-    demo: "https://demo.example.com/book-data-analysis",
+      "static\\projects\\bda.png",
+    github: "https://github.com/chirayupatel9/books_data_analysis",
+   
   },
   {
     id: 2,
-    title: "E-Commerce Customer Behavior Analysis",
+    title: "Recommendation Systems",
     description:
-      "Applied K-means clustering to segment customers, developed a logistic regression model for churn prediction, and created interactive Tableau dashboards to drive data-informed marketing strategies.",
-    technologies: ["Python", "K-means", "Logistic Regression", "Tableau"],
+      "A Recommendation system is an information service system that connects users and items {“Movies”, “Books”, “Music”}. The system has implemented based on hybrid approach of collaborative filtering and context based filtering. It helps users to discover new items of its interests. The system can be highly improved by making use of caching mechanisms. ",
+    technologies: ["Python", "K-means", "Collaborative Filtering", "Context Based Filtering"],
     image:
-      "https://images.unsplash.com/photo-1519389950473-47ba0277781c?auto=format&fit=crop&q=80&w=1000",
-    github: "https://github.com/your-username/ecommerce-behavior-analysis",
-    demo: "https://demo.example.com/ecommerce-behavior",
+      "static\\projects\\rec.png",
+    github: "https://github.com/chirayupatel9/recommendation_system",
   },
   {
     id: 3,
-    title: "Health Care Data Analysis",
+    title: "Medical Blockchain",
     description:
-      "Implemented random forest models and statistical methods to assess treatment effectiveness, predict patient risks for diabetes and heart disease, and created clear visualizations using Matplotlib and Seaborn.",
-    technologies: ["Python", "Random Forest", "Matplotlib", "Seaborn"],
+      "the intentions of the study were to spot the blockchain technology use cases in healthcare, the instance applications that are developed for these use cases, the challenges and restrictions of the blockchain-based healthcare applications, the present approaches employed in developing these applications and areas for future research.",
+    technologies: ["Python","Blockchain", "Healthcare", "Data Security"],
     image:
-      "https://images.unsplash.com/photo-1579154203451-1d587f2f3b43?auto=format&fit=crop&q=80&w=1000",
-    github: "https://github.com/your-username/healthcare-data-analysis",
-    demo: "https://demo.example.com/healthcare-data",
+      "static\\projects\\mb.png",
+    github: "https://github.com/chirayupatel9/medical_blockchain",
   },
   {
     id: 4,
-    title: "Financial Fraud Detection",
+    title: "MetaXtract",
     description:
-      "Utilized logistic regression, decision trees, and feature engineering to identify anomalies and potential fraud in transaction data, improving detection accuracy with precision and recall metrics.",
-    technologies: ["Python", "Logistic Regression", "Decision Trees", "Time Series"],
+      "MetaXtractor is a Python class designed to extract metadata from various file formats including:\n .h5 (HDF5) \n .xrdml (XRDML XML-based)\n .dm4 (DigitalMicrograph)\n .ibw (Igor Binary Wave) ",
+    technologies: ["Python", "JSON", "HDF5", "XML"],
     image:
-      "https://images.unsplash.com/photo-1569025695612-36e21e22e0ad?auto=format&fit=crop&q=80&w=1000",
-    github: "https://github.com/your-username/financial-fraud-detection",
-    demo: "https://demo.example.com/fraud-detection",
+      "static\\projects\\metaX.png",
+    github: "https://github.com/m3-learning/MetaXtract",
   },
   {
     id: 5,
-    title: "Financial Fraud Detection",
+    title: "Embeddings Visualizer",
     description:
-      "Utilized logistic regression, decision trees, and feature engineering to identify anomalies and potential fraud in transaction data, improving detection accuracy with precision and recall metrics.",
-    technologies: ["Python", "Logistic Regression", "Decision Trees", "Time Series"],
+      "Utilized to view, identify different types of embeddings and their relationships. The embeddings are visualized in 2D space. The embeddings are visualized using PCA, t-SNE, UMAP, and LDA. The embeddings are visualized in 2D space. The embeddings are visualized using PCA, t-SNE, UMAP, and LDA.",
+    technologies: ["Python", "TSNE", "UMAP", "React"],
     image:
-      "https://images.unsplash.com/photo-1569025695612-36e21e22e0ad?auto=format&fit=crop&q=80&w=1000",
-    github: "https://github.com/your-username/financial-fraud-detection",
-    demo: "https://demo.example.com/fraud-detection",
+      "static\\projects\\ev.jpg",
+    github: "https://github.com/chirayupatel9/embedding-fe",
   },
   {
     id: 6,
-    title: "Financial Fraud Detection",
+    title: "DataFed Panel",
     description:
-      "Utilized logistic regression, decision trees, and feature engineering to identify anomalies and potential fraud in transaction data, improving detection accuracy with precision and recall metrics.",
-    technologies: ["Python", "Logistic Regression", "Decision Trees", "Time Series"],
+      "DataFed Panel is a web application that provides a user-friendly interface to interact with the DataFed API. The application is built using Panel. The application is built using Panel, Globus and DataFed.",
+    technologies: ["Python", "Panel", "Docker", "Datafed"],
     image:
-      "https://images.unsplash.com/photo-1569025695612-36e21e22e0ad?auto=format&fit=crop&q=80&w=1000",
-    github: "https://github.com/your-username/financial-fraud-detection",
-    demo: "https://demo.example.com/fraud-detection",
-  },
-  {
-    id: 7,
-    title: "Financial Fraud Detection",
-    description:
-      "Utilized logistic regression, decision trees, and feature engineering to identify anomalies and potential fraud in transaction data, improving detection accuracy with precision and recall metrics.",
-    technologies: ["Python", "Logistic Regression", "Decision Trees", "Time Series"],
-    image:
-      "https://images.unsplash.com/photo-1569025695612-36e21e22e0ad?auto=format&fit=crop&q=80&w=1000",
-    github: "https://github.com/your-username/financial-fraud-detection",
-    demo: "https://demo.example.com/fraud-detection",
-  },
-  {
-    id: 8,
-    title: "Financial Fraud Detection",
-    description:
-      "Utilized logistic regression, decision trees, and feature engineering to identify anomalies and potential fraud in transaction data, improving detection accuracy with precision and recall metrics.",
-    technologies: ["Python", "Logistic Regression", "Decision Trees", "Time Series"],
-    image:
-      "https://images.unsplash.com/photo-1569025695612-36e21e22e0ad?auto=format&fit=crop&q=80&w=1000",
-    github: "https://github.com/your-username/financial-fraud-detection",
-    demo: "https://demo.example.com/fraud-detection",
-  },{
-    id: 9,
-    title: "Financial Fraud Detection",
-    description:
-      "Utilized logistic regression, decision trees, and feature engineering to identify anomalies and potential fraud in transaction data, improving detection accuracy with precision and recall metrics.",
-    technologies: ["Python", "Logistic Regression", "Decision Trees", "Time Series"],
-    image:
-      "https://images.unsplash.com/photo-1569025695612-36e21e22e0ad?auto=format&fit=crop&q=80&w=1000",
-    github: "https://github.com/your-username/financial-fraud-detection",
-    demo: "https://demo.example.com/fraud-detection",
+      "static\\projects\\dfp.jpg",
+    github: "https://github.com/chirayupatel9/datafed-panel",
   },
 ];
 

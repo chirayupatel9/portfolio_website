@@ -7,64 +7,58 @@ import type { PhotoItem } from '../types';
 const photos: PhotoItem[] = [
   {
     id: 1,
-    url: "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&q=80&w=1000",
-    title: "Mountain Lake Sunset",
-    category: "Landscape"
+    url: "static\\photos\\abstract.jpg",
+    title: "Lazy Afternoon",
+    category: "Abstract"
   },
   {
     id: 2,
-    url: "https://images.unsplash.com/photo-1520466809213-7b9a56adcd45?auto=format&fit=crop&q=80&w=1000",
-    title: "Urban Life",
-    category: "Street"
+    url: "static\\photos\\beach.jpg",
+    title: "Beach Day",
+    category: "Landscape"
   },
   {
     id: 3,
-    url: "https://images.unsplash.com/photo-1434725039720-aaad6dd32dfe?auto=format&fit=crop&q=80&w=1000",
-    title: "Mountain Range",
-    category: "Landscape"
+    url: "static\\photos\\water.jpg",
+    title: "Water waves",
+    category: "Nature"
   },
   {
     id: 4,
-    url: "https://images.unsplash.com/photo-1449824913935-59a10b8d2000?auto=format&fit=crop&q=80&w=1000",
-    title: "City Nights",
-    category: "Street"
+    url: "static\\photos\\deer.jpg",
+    title: "Deer in the Woods",
+    category: "Nature"
   },
   {
     id: 5,
-    url: "https://images.unsplash.com/photo-1444464666168-49d633b86797?auto=format&fit=crop&q=80&w=1000",
-    title: "Aurora Borealis",
-    category: "Landscape"
+    url: "static\\photos\\road.jpg",
+    title: "Road Trip",
+    category: "Street"
   },
   {
     id: 6,
-    url: "https://images.unsplash.com/photo-1513639776629-7b61b0ac49cb?auto=format&fit=crop&q=80&w=1000",
-    title: "Street Art",
-    category: "Magic"
+    url: "static\\photos\\spider.jpg",
+    title: "Spider closeup",
+    category: "Nature"
   },
   {
     id: 7,
-    url: "https://images.unsplash.com/photo-1444464666168-49d633b86797?auto=format&fit=crop&q=80&w=1000",
-    title: "Aurora Borealis",
-    category: "Landscape"
+    url: "static\\photos\\star_1.jpg",
+    title: "Starry Night",
+    category: "Astro"
   },
   {
     id: 8,
-    url: "https://images.unsplash.com/photo-1513639776629-7b61b0ac49cb?auto=format&fit=crop&q=80&w=1000",
-    title: "Street Art",
-    category: "Street"
+    url: "static\\photos\\motion.jpg",
+    title: "Steel Wool Motion",
+    category: "Abstract"
   },
   {
     id: 9,
-    url: "https://images.unsplash.com/photo-1444464666168-49d633b86797?auto=format&fit=crop&q=80&w=1000",
-    title: "Aurora Borealis",
-    category: "Landscape"
+    url: "static\\photos\\star_2.jpg",
+    title: "Orion Nebula",
+    category: "Astro"
   },
-  {
-    id: 10,
-    url: "https://images.unsplash.com/photo-1513639776629-7b61b0ac49cb?auto=format&fit=crop&q=80&w=1000",
-    title: "Street Art",
-    category: "Street"
-  }
 ];
 
 const categories = ["All", ...new Set(photos.map(photo => photo.category))];

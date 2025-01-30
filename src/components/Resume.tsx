@@ -70,7 +70,7 @@ export const Resume: React.FC = () => {
         >
           <h2 className="text-4xl font-bold mb-6 text-charcoal dark:text-cream">Resume</h2>
           <motion.a
-            href="/resume.pdf"
+            href="./static/resume.pdf"
             download
             whileHover={{ scale: 1.05 }}
             whileTap={{ scale: 0.95 }}
