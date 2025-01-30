@@ -11,7 +11,7 @@ const projects: Project[] = [
       "Developed a comprehensive Python application integrating Open Library and Google Books APIs to clean, preprocess, and analyze book data, culminating in effective recommendation systems and insightful visualizations.",
     technologies: ["Python", "APIs", "Data Visualization", "Data Cleaning"],
     image:
-      "static\\projects\\bda.png",
+      "public\\projects\\bda.png",
     github: "https://github.com/chirayupatel9/books_data_analysis",
    
   },
@@ -22,7 +22,7 @@ const projects: Project[] = [
       "A Recommendation system is an information service system that connects users and items {“Movies”, “Books”, “Music”}. The system has implemented based on hybrid approach of collaborative filtering and context based filtering. It helps users to discover new items of its interests. The system can be highly improved by making use of caching mechanisms. ",
     technologies: ["Python", "K-means", "Collaborative Filtering", "Context Based Filtering"],
     image:
-      "static\\projects\\rec.png",
+      "public\\projects\\rec.png",
     github: "https://github.com/chirayupatel9/recommendation_system",
   },
   {
@@ -32,7 +32,7 @@ const projects: Project[] = [
       "the intentions of the study were to spot the blockchain technology use cases in healthcare, the instance applications that are developed for these use cases, the challenges and restrictions of the blockchain-based healthcare applications, the present approaches employed in developing these applications and areas for future research.",
     technologies: ["Python","Blockchain", "Healthcare", "Data Security"],
     image:
-      "static\\projects\\mb.png",
+      "public\\projects\\mb.png",
     github: "https://github.com/chirayupatel9/medical_blockchain",
   },
   {
@@ -42,7 +42,7 @@ const projects: Project[] = [
       "MetaXtractor is a Python class designed to extract metadata from various file formats including:\n .h5 (HDF5) \n .xrdml (XRDML XML-based)\n .dm4 (DigitalMicrograph)\n .ibw (Igor Binary Wave) ",
     technologies: ["Python", "JSON", "HDF5", "XML"],
     image:
-      "static\\projects\\metaX.png",
+      "public\\projects\\metaX.png",
     github: "https://github.com/m3-learning/MetaXtract",
   },
   {
@@ -52,7 +52,7 @@ const projects: Project[] = [
       "Utilized to view, identify different types of embeddings and their relationships. The embeddings are visualized in 2D space. The embeddings are visualized using PCA, t-SNE, UMAP, and LDA. The embeddings are visualized in 2D space. The embeddings are visualized using PCA, t-SNE, UMAP, and LDA.",
     technologies: ["Python", "TSNE", "UMAP", "React"],
     image:
-      "static\\projects\\ev.jpg",
+      "public\\projects\\ev.jpg",
     github: "https://github.com/chirayupatel9/embedding-fe",
   },
   {
@@ -62,7 +62,7 @@ const projects: Project[] = [
       "DataFed Panel is a web application that provides a user-friendly interface to interact with the DataFed API. The application is built using Panel. The application is built using Panel, Globus and DataFed.",
     technologies: ["Python", "Panel", "Docker", "Datafed"],
     image:
-      "static\\projects\\dfp.jpg",
+      "public\\projects\\dfp.jpg",
     github: "https://github.com/chirayupatel9/datafed-panel",
   },
 ];
